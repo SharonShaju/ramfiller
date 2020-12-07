@@ -34,7 +34,7 @@ void clearPart(long long howMany, vector<Filler> &vec)
 int main()
 {
 	long long megabytes;
-	cout << "How much RAM do you have (in megabytes): ";
+	cout << "How much RAM do you have (in megabytes) Mod by FX713: ";
 	cin >> megabytes;
 	long long bytes = megabytes * 1000 * 1000; //not 1024 because OS and whatnot wants some of it too
 	long long maxElements = bytes / sizeof(Filler);
